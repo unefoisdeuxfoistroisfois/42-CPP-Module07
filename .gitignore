@@ -1,0 +1,4 @@
+*.dSYM
+ex00/main
+.DS_Store
+.vscode/
