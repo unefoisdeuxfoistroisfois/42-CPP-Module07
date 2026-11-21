@@ -2,8 +2,9 @@
 #define WHATEVER_HPP
 
 #include <iostream>
-template <class T> // class indique que T est un parametre type
+
 //template <typename T>
+template <class T> // class indique que T est un parametre type
 void swap(T &a, T &b){
 	T tmp = a;
 	a = b;
