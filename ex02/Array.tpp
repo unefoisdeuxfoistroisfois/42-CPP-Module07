@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Array.tpp                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: britela- <britela-@student.42belgium.be    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/11/21 19:34:49 by britela-          #+#    #+#             */
+/*   Updated: 2026/11/21 19:34:50 by britela-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 template <class T>
 Array<T>::Array() {
 	this->_array = NULL;
@@ -40,7 +52,6 @@ Array<T> &Array<T>::operator=(const Array &rhs){
 
 	return (*this);
 }
-
 
 // Defin exception
 template <class T>
