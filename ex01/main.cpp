@@ -28,6 +28,7 @@ int main(){
 	std::size_t lengthTab = sizeof(tab) / sizeof(tab[0]);
 	::iter(tab, lengthTab, ftPrint<int>); // ou juste ftPrint le compil desuis par lui mm.
   std::cout << std::endl;
+	// fct
 	::iter(tab, lengthTab, ftAddOne<int>); // ou juste ftPrint le compil desuis par lui mm.
 	::iter(tab, lengthTab, ftPrint<int>); // ou juste ftPrint le compil desuis par lui mm.
   std::cout << std::endl;
@@ -37,6 +38,7 @@ int main(){
 	std::string tabWords[] = {"salut", "bonjour"};
 	::iter(tabWords, 2, ftPrint<std::string>);
   std::cout << std::endl;
+	// fct
 	::iter(tabWords, 2, ftUppercase);
 	::iter(tabWords, 2, ftPrint<std::string>);
   std::cout << std::endl;
@@ -46,6 +48,7 @@ int main(){
 	int constTab[] = {4, 5, 6};
 	::iter(constTab, 3, ftPrint<int>);
 	std::cout << std::endl;
+	// fct
 	::iter(constTab, 3, ftAddOne<int>);
 	::iter(constTab, 3, ftPrint<int>);
 	std::cout << std::endl;
